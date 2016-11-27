@@ -6,7 +6,7 @@
  * Fail Code definitions:
  *   1 - Unable to connect to SD card
  *   2 - Unable to open file on SD card
- *   3 - Incorrect valid-character received from GPS
+ *   3 - Incorrect valid-character received from GPS (not an A or V)
  */
 void fail(unsigned short int fail_code){
   while(1){
