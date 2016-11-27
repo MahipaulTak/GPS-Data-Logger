@@ -4,8 +4,7 @@
 #include <SoftwareSerial.h>
 
 #include "pin_definitions.h"
-#include "function_prototypes.h"
-#include "GPS_struct.h"
+#include "function_prototype.h"
 
 SoftwareSerial mySerial(3,2);
 
